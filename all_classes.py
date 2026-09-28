@@ -11,3 +11,4 @@ db_path = "data/processed_data/db_analytics.db"
 conn = sql3.connect(db_path)
 
 df = pd.DataFrame()
+# A new test is here
