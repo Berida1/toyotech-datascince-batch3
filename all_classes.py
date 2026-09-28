@@ -12,3 +12,6 @@ conn = sql3.connect(db_path)
 
 df = pd.DataFrame()
 # A new test is here
+
+def greet(name):
+    return f"Hello, {name}!"
